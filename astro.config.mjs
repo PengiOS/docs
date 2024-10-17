@@ -3,6 +3,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://pengios.github.io/docs',
+	base: 'PengiOS/Docs',
 	integrations: [
 		starlight({
 			title: 'My Docs',
